@@ -17,7 +17,7 @@ public class LocationEntity: Entity {
         super.init()
     }
     
-    @MainActor required init() {
+    required init() {
         fatalError("init() has not been implemented")
     }
 }
@@ -34,7 +34,7 @@ public class LocationAnchorEntity: Entity {
         super.init()
     }
     
-    @MainActor required init() {
+    required init() {
         fatalError("init() has not been implemented")
     }
 }
